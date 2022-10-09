@@ -1,8 +1,6 @@
 "use strict";
 
-window.onload = init;
-
-function init() {
+window.onload = function () {
     const number1Field = document.querySelector("#number1Field");
     const number2Field = document.querySelector("#number2Field");
     const answerField = document.querySelector("#answerField");
